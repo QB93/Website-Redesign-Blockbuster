@@ -23,9 +23,11 @@ li    {
     line-height: 2;
     margin: 0px; 
 }
-.aul {
+ul .sub {
     margin: 0px;
+    list-style-type: circle;
 }
+ul .main {
     margin: 0px;
 }
 table {
@@ -64,6 +66,7 @@ table td {
     margin: 20px 100px 2px 300px;
     padding: 2px;
     color: rgba(31, 31, 170, 0.993); 
+    background-color: none;
     font-size: 300%;
 }
 table caption {
@@ -84,32 +87,35 @@ table caption {
 
 /*Creative brief styles start*/
 
-        h1    {
-            font-family: verdana;
-            text-align: center;
-            margin: 8px 59px 2px 70px;
-            color: #f0ec0c;
-            font-size: 300%;
-            padding: 10px;
-            background-color: #0733c5;
-            border: 2px solid black;
-            border-collapse: collapse; 
-        }
-        h2     {
-            font-family: verdana;
-            color: #0733c5;
-            padding: 5px;
-            margin: 5px 5px 2px 25px;
-            text-align: center;
-            font-size: 200%;
-        }
-        ul     {
-            font-family: verdana;
-            margin: 5px 400px 2px 450px;
-            text-align: left;
-            line-height: 2;
-        }
-        a:hover{
-            color: #e9154af8
-        }
+.cbh1    {
+    font-family: verdana;
+    text-align: center;
+    margin: 8px 59px 2px 70px;
+    color: #f0ec0c;
+    font-size: 300%;
+    padding: 10px;
+    background-color: #0733c5;
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+.cbh2   {
+    font-family: verdana;
+    color: #0733c5;
+    padding: 5px;
+    margin: 5px 5px 2px 25px;
+    text-align: center;
+    font-size: 200%;
+}
+.cbul   {
+    font-family: verdana;
+    margin: 5px 400px 2px 450px;
+    text-align: left;
+    line-height: 2;
+}
+a:hover {
+    color: #e9154af8
+}
+a:visited {
+    color: blue;
+}
 /*Creative brief styles end*/
